@@ -22,3 +22,12 @@
 Решение предоставлено в файле *main.py*
 
 #### Результат работы:
+
+    /home/user/Work/Python/Data/PyData_dz4/.venv/bin/python /home/user/Work/Python/Data/PyData_dz4/main.py 
+    (1/2) Категории: 100%|██████████| 12/12 [00:11<00:00,  1.01it/s]
+    (2/2) Страницы: 100%|██████████| 174/174 [01:56<00:00,  1.49it/s]
+    Данные сохранены в файле rezult.csv
+
+    Process finished with exit code 0
+
+Файл с данными: [rezult.csv](rezult.csv)
