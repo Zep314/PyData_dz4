@@ -138,7 +138,7 @@ def my_save_to_csv(filename, local_data):
     :param local_data: Список из словарей с данными
     :return:
     """
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(['Category', 'Name', 'VendorCode', 'Vendor', 'Series',  # Пишем заголовок
                          'Price_Eur', 'Price_Rub', 'Product_url', 'Image_url'])
